@@ -1,0 +1,213 @@
+#toggleLogin {
+    
+    padding-right: 15px;
+    
+}
+
+#loginAlert {
+    
+    display:none;
+    
+}
+
+#tweetSuccess {
+    
+    display:none;
+    
+}
+
+#tweetFail {
+    
+    display:none;
+    
+}
+
+.mainContainer {
+    
+    padding: 20px;
+    
+}
+
+.time {
+    
+    color: lightgrey;
+    
+}
+
+.HiLight {
+    font-weight: bold;
+}
+
+.linkStyle {
+    color: blue;
+    text-decoration: underline;
+}
+
+.bannerV {
+  margin:0;
+  padding:0;
+  width: 30px;
+  height: 190px;
+}
+
+.v-space {
+   
+    margin-top: 24px;
+
+}
+
+.img-max-s {
+
+    max-height: 1800px;
+    width: auto;
+}
+
+.naviBal {
+
+font-family: Consolas, sans-serif;
+  font-size: 28px;
+  text-shadow: 2px 2px 6px #FF7514;
+  border-right: 2px solid #eedddd;
+  margin: 10px;
+
+}
+
+.highL {
+    background-color: #539633;
+}
+
+.div1 {
+    
+    margin-bottom: 100px;
+}
+
+.div2 {
+    
+    margin-top: 100px;
+}
+#titleI {
+ font-size: 155% !important;
+}
+#subtitle {
+ font-size: 100% !important; 
+}
+
+#links {
+margin: 8px auto;
+  
+
+}
+
+#a12:link {
+  color: #ddd !important;
+}
+
+#a12:visited {
+  color: #ddd !important;
+}
+
+#a12:hover {
+ color: #fff !important;
+}
+
+/* Regolamento
+-------------------------------------------------- */
+
+#idTitle {
+   
+    text-shadow: 3px 3px 6px #ffbf00;
+    color: #ff8000;
+}
+
+.completeRule {
+    
+    font-family: 'Arimo', sans-serif;
+    font-size: 120%;
+}
+
+#myBton{
+    border: 3px 0px 1px solid;
+    font-weight: bold;
+    color: #444ff6;
+    text-decoration: none;
+    position:fixed;
+    top:120px;
+    right:20px;
+    display:none;
+}
+#myBton:hover{
+    text-decoration:none;
+}
+
+
+/* Iscrizione
+-------------------------------------------------- */
+
+#linkN a {
+    font-size: 20px;
+    color: #000;
+}
+
+.card1 {
+    
+    margin-top: 16px;
+}
+
+
+/* Footer
+-------------------------------------------------- */
+
+.footer1 {
+    width: auto;
+    height: 120px;
+}
+
+#mobile-footer {
+    display: none;
+}
+
+
+/* Informativa sulla privacy
+-------------------------------------------------- */
+
+#mainId {
+    margin-top: 20px;
+}
+#mainId h1 {
+    color: #fff;
+    
+}
+
+#mainId p {
+    
+    color: #fff;
+}
+
+
+.mainPar {
+    color: #fff;
+}
+
+.mainTitle{
+    color: #fff;
+}
+
+/* colours
+-------------------------------------------------- */
+
+#bg-color-a {
+    background-color: #268AFF !important;
+}
+.color-a {
+    color: #268AFF;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+.myP {
+  transition: background-size .4s ease;
+  background: linear-gradient(to bottom, transparent 82%, #fff87e 0) center center/0% 75% no-repeat;
+  cursor: pointer;
+  color: rgba(80, 89, 113, 0.7)}
+  .myP:hover {
+    background-size: 100% 100%; }
+  .myP:active {
+    background-size: 80% 100%; }
+  .myP-container {
+    z-index: 1;
+    position: relative;
+    background-color: #fff;
+    padding: 60px;
+    box-shadow: 0 0 90px 10px rgba(95, 124, 179, 0.15); }
+
+/*# sourceMappingURL=myP.class.css.map */

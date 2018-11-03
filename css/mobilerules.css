@@ -1,0 +1,47 @@
+@media screen and (max-width: 800px) {
+   .dimension span {
+        font-size: 80% !important;
+    }
+    
+    .dimension span a {
+        font-size: 80% !important;
+    }
+}
+
+@media screen and (max-width: 650px) {
+   .dimension span {
+        font-size: 70% !important;
+    }
+    
+    .dimension span a {
+        font-size: 70% !important;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+   .dimension span {
+        font-size: 60% !important;
+    }
+    
+    .dimension span a {
+        font-size: 60% !important;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    
+    .dimension span {
+        font-size: 50% !important;
+    }
+    
+    .dimension span a {
+        font-size: 50% !important;
+    }
+    
+    .more span {
+        font-size: 44% !important;
+    }
+    
+}
+
