@@ -1,0 +1,52 @@
+.welcome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  background: #fff;
+  height: 100vh;
+}
+
+.background {
+  background-image: url("https://ipack.info/wp-content/uploads/2015/12/Abstract-line-on-green-video-background.jpg");
+  background-size: cover;
+}
+
+.main-title, .main-subtitle, .main-intro, .cta-newsletter {
+  margin: 0;
+  padding: 3vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-title {
+  font-family: Yeseva One, sans-serif;
+}
+
+.main-subtitle, .main-intro {
+  font-family: Bellefair, sans-serif;
+}
+
+.main-intro {
+  font-size: 1.4em;
+}
+
+.cta-newsletter {
+  height: 50px;
+  width: 200px;
+  border-radius: 30px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(184, 42, 22, 0.9)), to(rgba(98, 190, 220, 0.9)));
+  background-image: -webkit-linear-gradient(top, rgba(184, 42, 22, 0.9), rgba(98, 190, 220, 0.9));
+  background-image: -o-linear-gradient(top, rgba(184, 42, 22, 0.9), rgba(98, 190, 220, 0.9));
+  background-image: linear-gradient(to bottom, rgba(184, 42, 22, 0.9), rgba(98, 190, 220, 0.9));
+}
+
+.cta-newsletter a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  font-family: Yeseva One, sans-serif;
+}

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Bellefair|Yeseva+One');
 /* 1. Config files and helpers
    */
 
@@ -10,7 +11,7 @@
 
 /* 3. Base styles
    */
-
+@import "abstracts/_sections.css";
 @import "base/_hero.css";
 
 
