@@ -1,9 +1,10 @@
 .welcome
   display: flex
-  align-content: center
   background: #fff
   height: 100vh
 
+.center
+  display: flex
 .background
     background-image: url("https://ipack.info/wp-content/uploads/2015/12/Abstract-line-on-green-video-background.jpg")
     background-size: cover
@@ -12,6 +13,7 @@
   margin: 0
   padding: 3vh
   display: flex
+  justify-content: center
 
 .main-title
   font-family: Yeseva One, sans-serif
@@ -23,11 +25,15 @@
   font-size: 1.4em
 
 .cta-newsletter
-  height: 50px
+  display: flex
+  height: 35px
   width: 200px
-  border-radius: 30px
+  border-radius: 33px
+  margin: 0 auto
   background-image: linear-gradient(to bottom, rgba(184,42,22,0.9), rgba(98,190,220,0.9))
   a
-    display: flex
+    color: #fff
+    margin: auto
+    align-content: center
     text-decoration: none
     font-family: Yeseva One, sans-serif

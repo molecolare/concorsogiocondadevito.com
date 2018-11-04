@@ -2,10 +2,14 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: center;
-  align-content: center;
   background: #fff;
   height: 100vh;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .background {
@@ -19,6 +23,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .main-title {
@@ -34,9 +41,13 @@
 }
 
 .cta-newsletter {
-  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 35px;
   width: 200px;
-  border-radius: 30px;
+  border-radius: 33px;
+  margin: 0 auto;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(184, 42, 22, 0.9)), to(rgba(98, 190, 220, 0.9)));
   background-image: -webkit-linear-gradient(top, rgba(184, 42, 22, 0.9), rgba(98, 190, 220, 0.9));
   background-image: -o-linear-gradient(top, rgba(184, 42, 22, 0.9), rgba(98, 190, 220, 0.9));
@@ -44,9 +55,10 @@
 }
 
 .cta-newsletter a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  color: #fff;
+  margin: auto;
+  -ms-flex-line-pack: center;
+  align-content: center;
   text-decoration: none;
   font-family: Yeseva One, sans-serif;
 }
